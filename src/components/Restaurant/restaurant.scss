@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  src: local('Montserat') url("/fonts/Montserrat-Regular.ttf") format('opentype');
+}
+@font-face {
+  font-family: Cronos-Pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: local('Cronos-Pro') url("/fonts/Cronos-Pro-Bold-Display_12431.ttf") format('opentype');
+}
+
+.restaurant-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restaurant {
+  width: 1200px;
+  height: 250px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 1px 3px 6px #00000029;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  .restaurant-logo {
+    width: 300px;
+    height: 250px;
+    background-position: center;
+    background-size: auto;
+  }
+  .restaurant-body {
+    width: 900px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .restaurant-info {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      .restaurant-info-name {
+        text-align: left;
+        font: Bold 26px/44px Cronos Pro, sans-serif;
+        letter-spacing: 0;
+        color: #414141;
+        opacity: 1;
+        margin-top: 5px;
+      }
+      .restaurant-info-type, .restaurant-info-adress, .restaurant-info-phone {
+        text-align: left;
+        font: Regular 18px/22px Montserrat, sans-serif;
+        letter-spacing: 0;
+        color: #414141;
+        opacity: 1;
+        margin-bottom: 3px;
+      }
+      a {
+        display: flex;
+        justify-content: start;
+        text-decoration: none;
+        .restaurant-info-menu {
+          width: 100px;
+          height: 40px;
+          background: #FFFFFF 0 0 no-repeat padding-box;
+          box-shadow: 1px 1px 1px #ffe7e0;
+          border-radius: 10px;
+          opacity: 1;
+          text-align: center;
+          font: Bold 16px/36px Cronos Pro, sans-serif;
+          letter-spacing: 0;
+          color: #A92725;
+          margin-top: 70px;
+        }
+      }
+
+    }
+    .restaurant-website {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      .restaurant-website-button {
+        width: 180px;
+        height: 60px;
+        background: #A92725 0% 0% no-repeat padding-box;
+        box-shadow: 1px 1px 1px #8D2220;
+        border-radius: 10px;
+        opacity: 1;
+        text-align: center;
+        font: Bold 16px/34px Cronos Pro, sans-serif;
+        letter-spacing: 0;
+        color: #FFFFFF;
+        margin-right: 40px;
+      }
+    }
+  }
+
+}

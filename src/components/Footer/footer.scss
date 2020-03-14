@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: local('Montserat') url("/fonts/Montserrat-Bold.ttf") format('opentype');
+}
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  src: local('Montserat') url("/fonts/Montserrat-SemiBold.ttf") format('opentype');
+}
+
+.footer {
+  width: 1000px;
+  height: 80px;
+  background: #A92725 0% 0% no-repeat padding-box;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.line {
+  top: 1001px;
+  left: 1424px;
+  width: 0px;
+  height: 60px;
+  border: 1px solid #FFFFFF;
+  opacity: 1;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.copyrights {
+  text-align: left;
+  font: Bold 16px Montserrat, sans-serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-menu-list {
+  margin-left: 30px;
+  opacity: 1;
+  list-style: none;
+  text-decoration: none;
+}
+
+.FooterNavLink {
+  list-style: none;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  font: Bold 16px Montserrat, sans-serif;
+  text-decoration: none;
+}

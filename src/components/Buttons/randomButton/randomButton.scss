@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Cronos-Pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: local('Cronos-Pro') url("/fonts/Cronos-Pro-Bold-Display_12431.ttf") format('opentype');
+}
+
+a {
+  text-decoration: none;
+}
+
+.randomButton {
+  width: 360px;
+  height: 70px;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 1px 1px 4px #545353;
+  border: 3px solid #FFFFFF;
+  border-radius: 10px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.randomButton-text {
+  font: Bold 18px/40px Cronos-Pro, sans-serif;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #A92725;
+  opacity: 1;
+}
+
+.randomButton-NavLink {
+  text-decoration: none;
+}

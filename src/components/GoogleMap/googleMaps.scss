@@ -1,0 +1,14 @@
+.googleMaps {
+  width: 1200px;
+  height: 400px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 1px 3px 6px #00000029;
+}
+
+.test {
+  width: 1200px;
+  height: 400px;
+  >div {
+    height: auto !important;
+  }
+}

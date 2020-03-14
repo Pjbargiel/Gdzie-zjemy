@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Cronos-Pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: local('Cronos-Pro') url("/fonts/Cronos-Pro-Bold-Display_12431.ttf") format('opentype');
+}
+@font-face {
+  font-family: Cronos-Pro, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  src: local('Cronos-Pro') url("/fonts/Cronos-Pro-Bold-Subhead_12434.ttf") format('opentype');
+}
+
+
+.topbar-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin-left: 30px;
+  opacity: 1;
+  list-style: none;
+  text-decoration: none;
+}
+
+.NavLink {
+  list-style: none;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  font-family: Cronos-Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.NavLink:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.NavLink.active {
+  color: #FFFFFF;
+  font-family: Cronos-Pro, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}

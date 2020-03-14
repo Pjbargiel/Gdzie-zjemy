@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  src: local('Montserat') url("/fonts/Montserrat-SemiBold.ttf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: local('Montserat') url("/fonts/Montserrat-Bold.ttf") format('opentype');
+}
+
+.contact {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 70px;
+  background: #A92725 0 0 no-repeat padding-box;
+  box-shadow: 1px 1px 4px #8D2220;
+  opacity: 1;
+}
+
+.contact-body {
+  width: 1110px;
+  height: 443px;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 1px 3px 6px #00000029;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+h2 {
+  text-align: left;
+  font: Bold 32px/39px Montserrat, sans-serif;
+  letter-spacing: 0;
+  color: #414141;
+  opacity: 1;
+}
+
+h3 {
+  text-align: left;
+  font: Bold 22px/32px Montserrat, sans-serif;
+  letter-spacing: 0;
+  color: #414141;
+  opacity: 1;
+}
+
+p {
+  text-align: left;
+  font: SemiBold 18px/22px Montserrat, sans-serif;
+  letter-spacing: 0;
+  color: #414141;
+  opacity: 1;
+  margin-top: -10px
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-image {
+  width: 623px;
+  height: 443px;
+  background-image: url("/contactImage.png");
+  background-position: center;
+
+}

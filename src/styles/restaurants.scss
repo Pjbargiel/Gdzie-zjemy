@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  src: local('Montserat') url("/fonts/Montserrat-SemiBold.ttf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: local('Montserat') url("/fonts/Montserrat-Bold.ttf") format('opentype');
+}
+
+.restaurants {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.restaurants-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 70px;
+  background: #A92725 0 0 no-repeat padding-box;
+  box-shadow: 1px 1px 4px #8D2220;
+  opacity: 1;
+}
+
+.restaurants-img {
+  background-image: url("/restaurants-buritto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //margin-top: -60px;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.restaurants-img-button {
+  margin-right: 150px;
+}
+
+.restaurants-map {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .restaurants-map-google {
+    height: 600px;
+    width: 1200px;
+  }
+}
+
+.restaurants-footer {
+  display: flex;
+  justify-content: flex-end;
+}
